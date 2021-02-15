@@ -1,13 +1,23 @@
+.txt h1 {
+    color: #004b98;
+    text-align: center;
+}
+
+.txt p {
+    text-align: center;
+    color: #818181;
+}
 
 fieldset{
     position: absolute;
-    left: 50%;
+    left: 49.5%;
     transform: translateX(-50%);
-    top: 100px;
-    background-color: rgba(238, 238, 238, 0.867);
-    width:500px;
-    height:300px;
+    top: 200px;
+    width: 500px;
+    height: 500px;
+    border: white;
 }
+
 #area #formulario
 {
     position:absolute;
@@ -20,62 +30,115 @@ legend{
     text-align: center;
 
 }
+
 ::placeholder{
-    color:gray;
+    color:#818181;
 }
 
-#formulario label{
+#form label{
     font-family: Arial;
-    font-size: 16px;
+    color: #818181;
+    font-size: 14px;
     position:absolute;
-    left:8%;
     text-align: baseline;
+    margin-top: 5px;
 }
 
-#formulario input.nome{
-    background-color:rgb(243, 184, 255);
+#form input {
+    font-size: 16px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #818181;
+    border-radius: 3px;
+    position: absolute;
+    width: 97.6%;
+    margin-top: 2px;
+}
+
+.deptel {
+    width: 100%;
+    height: 30px;
+}
+
+#form select{
+    background-color: white;
+    font-size: 14px;
     position: absolute;
     border-style:solid;
-    border-radius: 5px;
-    border: 2px;
-    left:55%;
-    transform: translateX(-50%);
-    width: 90%;
+    border: 2px solid #818181;
+    border-radius: 3px;
+    right: 0%;
+    width: 180px;
+    height: 25px;
 }
 
-#formulario input.email{
-    background-color: rgb(243, 184, 255);
-    border-style:solid;
-    border-radius: 5px;
-    border: 2px;
-    position:absolute;
-    left:55%;
-    transform: translateX(-50%);
-    margin-top:2px;
-    width:225px;
+#form input.tel {
+    font-size: 14px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #818181;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 55px;
+    width: 28%;
+    margin-top: 0px;
 }
 
-#formulario select.gen{
-    background-color: rgb(243, 184, 255);
+#form input.btn_submit{
+    cursor: pointer;
+    color: #818181;
     border-style:solid;
-    border-radius: 5px;
-    border: 2px;
+    border-radius: 3px;
     position:absolute;
-    left:55%;
-    transform: translateX(-50%);
-    margin-top:2px;
-    width:225px;
+    bottom: 4px;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #dddddd;
+}
+
+#form label.depl{
+    right: 185px;
+}
+
+select .dep{
+    border: 2px solid #818181;
+    border-radius: 3px;
 }
 
 select{
-    color:gray;
+    color:#818181;
 }
 
-#formulario input.btn_submit{
-    border-style:solid;
-    border-radius: 5px;
-    position:absolute;
-    bottom: 4px;
-    right:175px;
-    background-color: rgb(243, 184, 255);
+#form label.assuntol {
+    margin-top: 35px;
+}
+
+#form input.assunto {
+    margin-top: 35px;
+}
+
+#form textarea {
+    font-family: Arial;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #818181;
+    border-radius: 3px;
+    position: absolute;
+    width: 97.6%;
+    height: 150px;
+    margin-top: 2px;
+}
+
+#form label.msgl {
+    margin-top: 25px;
+}
+
+#form textarea.msg {
+    margin-top: 25px;
+}
+
+@media (max-width:980px) {
+    fieldset {
+        width: 700px;
+    }
 }

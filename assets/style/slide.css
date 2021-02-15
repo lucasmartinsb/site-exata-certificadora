@@ -4,8 +4,6 @@
     background-color: white;
     object-fit: cover;
     max-width: 100%;
-    height: auto;
-    max-height: 650px;
     overflow: hidden;
 }
 
@@ -50,7 +48,7 @@ button.slick-next{
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 96%;
+    bottom: 4%;
 }
 
 .slick-dots li button:hover {
@@ -64,5 +62,15 @@ li.slick-active button {
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+
+@media (max-width:1210px) {
+    button.slick-prev {
+        opacity: 0%;
+    }
+    button.slick-next {
+        opacity: 0%;
+    }
+}
 }
 /*---------------------------------------FIM SLIDER---------------------------------------*/

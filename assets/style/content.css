@@ -1,12 +1,12 @@
 
 /*---------------------------------------QUADROS ABOUTUS---------------------------------------*/
 .aboutus {
-  position: absolute;
+  position: relative;
   width: 980px;
   height: 300px;
   left: 50%;
   transform: translateX(-50%);
-  top: 770px;
+  top: 20px;
 }
 
 .aboutus > div > h1 {
@@ -49,21 +49,20 @@
 
 @media screen and (max-width: 1080px){
   .aboutus {
-    width: 100%;
+    width: 305px;
     height: 330px;
     left: 50%;
     transform: translateX(-50%);
-    top: 770px;
   }
   .about {
-    width: 31%;
+    width: 305px;
     position: absolute;
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
   }
   .rand {
-    width: 31%;
+    width: 305px;
     position: absolute;
     top: 170px;
     left: 50%;
@@ -74,10 +73,10 @@
 
 /*---------------------------------------QUADROS PRODUTOS---------------------------------------*/
 .quadros {
-  position: absolute;
+  position: relative;
   width: 880px;
   height: 450px;
-  top: 930px;
+  top: -80px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -183,16 +182,27 @@
 }
 @media screen and (max-width: 1080px){
   .quadros{
-    top: 1140px;
     height: 1100px;
     width: 100%;
+    top: 40px;
   }
+
+  .quadros p {
+    width: 290px;
+  }
+
+  .chair {
+    width: 305px;
+  }
+
   .glp {
+    width: 305px;
     top: 390px;
     left: 50%;
     transform: translateX(-50%);
   }
   .inflamable {
+    width: 305px;
     top: 750px;
     left: 50%;
     transform: translateX(-50%);

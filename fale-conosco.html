@@ -5,9 +5,8 @@
     <link rel="stylesheet" type='text/css' href='./assets/style/slide.css'>
     <link rel="stylesheet" type='text/css' href='./assets/style/content.css'>
     <link rel="stylesheet" type='text/css' href='./assets/style/form.css'>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="shortcut icon" href="./assets/imgs/favicon.ico" />
-    <title>Exata certificadora - Fale conosco</title>
+    <title>Exata certificadora</title>
 </head>
 
 <body>
@@ -27,11 +26,11 @@
         </div>
         
         <div class="nav-links">
-        <a href="./index.html" target="_blank">HOME</a>
-        <a href="./processo.html" target="_blank">PROCESSO</a>
-        <a href="./servicos.html" target="_blank">SERVIÇOS</a>
-        <a href="./quem-somos.html" target="_blank">QUEM SOMOS</a>
-        <a href="./fale-conosco.html" target="_blank">FALE CONOSCO</a>
+        <a href="./index.html" target="_self">HOME</a>
+        <a href="./processo.html" target="_self">PROCESSO</a>
+        <a href="./servicos.html" target="_self">SERVIÇOS</a>
+        <a href="./quem-somos.html" target="_self">QUEM SOMOS</a>
+        <a href="./fale-conosco.html" target="_self">FALE CONOSCO</a>
         </div>
         <div class='redes-sociais'>
             <ul>
@@ -42,19 +41,39 @@
         </div>
     </div>
 
+
     <div id='form_area'>
+        <div class='txt'>
+            <h1>Fale conosco</h1>
+            <p>Envie-nos uma mensagem.<br>Teremos o maior prazer em atendê-lo!</p>
+        </div>
         <form id='form' autocomplete="on">
             <fieldset>
-                <legend>Formulario legal</legend>
-                <label>Nome</label><br><input class='nome' type='text' placeholder="Digite seu nome"><br>
-                <label>Email:</label><input class='email' type='email' placeholder="Digite seu Email">
-                <label>Departamento:</label><select class='dep'>
+                <label>Nome</label><br>
+                <input class='nome' type='text' placeholder="Digite seu nome"><br><br><br>
+
+                <label>Email</label><br>
+                <input class='email' type='email' placeholder="Digite seu Email"><br><br><br>
+                    
+                <label>Telefone</label>
+                <input class='tel' type='tel' placeholder='Digite seu telefone'>
+
+                <label class='depl'>Departamento</label>
+                <select class='dep'><br><br><br>
                     <option selected disabled value=''>Selecione</option>
                     <option>Comercial</option>
                     <option>Financeiro</option>
                     <option>Apelação</option>
                     <option>Contato</option>
                     <option>Outro</option><br>
+                </select>
+
+                <label class='assuntol'>Assunto</label><br>
+                <input class='assunto' type='text' placeholder='Digite o assunto'><br><br><br>
+
+                <label class='msgl'>Mensagem</label><br>
+                <textarea class='msg' placeholder='Digite sua mensagem'></textarea>
+
                 <input class='btn_submit' type='submit' value='Enviar'>
             </fieldset>
         </form>
