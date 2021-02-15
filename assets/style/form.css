@@ -1,0 +1,81 @@
+
+fieldset{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    background-color: rgba(238, 238, 238, 0.867);
+    width:500px;
+    height:300px;
+}
+#area #formulario
+{
+    position:absolute;
+    display:block;
+}
+
+legend{
+    font-style: bold;
+    font-family:Arial;
+    text-align: center;
+
+}
+::placeholder{
+    color:gray;
+}
+
+#formulario label{
+    font-family: Arial;
+    font-size: 16px;
+    position:absolute;
+    left:8%;
+    text-align: baseline;
+}
+
+#formulario input.nome{
+    background-color:rgb(243, 184, 255);
+    position: absolute;
+    border-style:solid;
+    border-radius: 5px;
+    border: 2px;
+    left:55%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+
+#formulario input.email{
+    background-color: rgb(243, 184, 255);
+    border-style:solid;
+    border-radius: 5px;
+    border: 2px;
+    position:absolute;
+    left:55%;
+    transform: translateX(-50%);
+    margin-top:2px;
+    width:225px;
+}
+
+#formulario select.gen{
+    background-color: rgb(243, 184, 255);
+    border-style:solid;
+    border-radius: 5px;
+    border: 2px;
+    position:absolute;
+    left:55%;
+    transform: translateX(-50%);
+    margin-top:2px;
+    width:225px;
+}
+
+select{
+    color:gray;
+}
+
+#formulario input.btn_submit{
+    border-style:solid;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 4px;
+    right:175px;
+    background-color: rgb(243, 184, 255);
+}

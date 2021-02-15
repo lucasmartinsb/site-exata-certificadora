@@ -1,0 +1,284 @@
+
+/*---------------------------------------QUADROS ABOUTUS---------------------------------------*/
+.aboutus {
+  position: absolute;
+  width: 980px;
+  height: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 770px;
+}
+
+.aboutus > div > h1 {
+  font-family: Arial;
+  text-align: center;
+  color: #818181;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 30px;
+  width: 304px;
+}
+
+.aboutus > div > p{
+  font-family: Arial;
+  text-align: center;
+  color: #9a9a9a;
+  width: 305px;
+}
+
+.about {
+  width: 31%;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+.rand {
+  width: 31%;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+.aboutus img {
+  position: absolute;
+  top: 53px;
+  width: 220px;
+  transform: translateX(20%);
+}
+
+@media screen and (max-width: 1080px){
+  .aboutus {
+    width: 100%;
+    height: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 770px;
+  }
+  .about {
+    width: 31%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .rand {
+    width: 31%;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+/*---------------------------------------FIM QUADROS ABOUTUS---------------------------------------*/
+
+/*---------------------------------------QUADROS PRODUTOS---------------------------------------*/
+.quadros {
+  position: absolute;
+  width: 880px;
+  height: 450px;
+  top: 930px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quadros img {
+  position: absolute;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quadros p {
+  font-family: Arial;
+  text-align: center;
+  color: #9a9a9a;
+  line-height: 20px;
+  position: absolute;
+  bottom: -5px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 205px;
+}
+
+.quadros h2 {
+  font-family: Arial;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quadros ul{
+  margin-left: 15px;
+  display: inline-block;
+  list-style: none;
+}
+
+.inflamable {
+  position: absolute;
+  height: 350px;
+  width: 220px;
+  border: 3px solid #004b98;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  bottom: 15px;
+  left: 30px;
+}
+
+.chair {
+  position: absolute;
+  height: 350px;
+  width: 220px;
+  border: 3px solid #004b98;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chair > img{
+  max-height: 190px;
+}
+
+.glp {
+  position: absolute;
+  height: 350px;
+  width: 220px;
+  border: 3px solid #004b98;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  bottom: 15px;
+  right: 30px;
+}
+
+.inflamable h2 {
+  color: #818181;
+  font-family: Arial;
+  font-size: 20px;
+  top: 155px;
+}
+.chair h2 {
+  color: #818181;
+  font-family: Arial;
+  font-size: 20px;
+  top: 185px;
+}
+
+.glp h2 {
+  color: #818181;
+  font-family: Arial;
+  font-size: 20px;
+  top: 155px;
+}
+
+.chair p{
+  bottom: 25px;
+}
+@media screen and (max-width: 1080px){
+  .quadros{
+    top: 1140px;
+    height: 1100px;
+    width: 100%;
+  }
+  .glp {
+    top: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .inflamable {
+    top: 750px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+/*---------------------------------------FIM QUADROS PRODUTOS---------------------------------------*/
+
+/*---------------------------------------QUADRO ACREDITAÇÕES---------------------------------------*/
+.txt_quadro {
+  background-color: #e6e6e6;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 1000px;
+  height: 270px;
+  top: 1450px;
+  z-index: 9;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.txt_quadro img {
+  position: absolute;
+  top: -50px;
+  max-height: 50px;
+  width: auto;
+}
+
+.acreditacao {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 910px;
+  height: 270px;
+}
+.acreditacao ul {
+  height: 160px;
+}
+
+.acreditacao h1{
+  font-family: Arial;
+  text-align: center;
+  color: #818181;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.acreditacao p{
+  font-family: Arial;
+  color: #818181;
+  position: fixed;
+  top: 35px;
+  right: 10px;
+  line-height: 40px;
+}
+
+.acreditacao li {
+  font-family: Arial;
+  color: #818181;
+  left: 20px;
+  top: -16px;
+  position: relative;
+  line-height: 3px;
+}
+
+@media screen and (max-width: 1080px){
+  .txt_quadro{
+    top: 2250px;
+    width: 90%;
+  }
+  .txt_quadro img {
+    height: 25px;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .acreditacao h1 {
+    font-size: 20px;
+  }
+  .acreditacao p {
+    font-size: 10px;
+  }
+  .acreditacao li {
+    font-size: 10px;
+  }
+
+}
+
+/*---------------------------------------FIM QUADRO ACREDITAÇÕES---------------------------------------*/

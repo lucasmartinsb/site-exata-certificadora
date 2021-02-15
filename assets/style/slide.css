@@ -1,0 +1,68 @@
+/*---------------------------------------SLIDER---------------------------------------*/
+.slider {
+    position: absolute;
+    background-color: white;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    max-height: 650px;
+    overflow: hidden;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../imgs/ant.png');
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 14%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../imgs/prox.png');
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 86%;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    cursor: pointer;
+    border: 3px;
+}
+
+.slick-dots {
+    margin:0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 96%;
+}
+
+.slick-dots li button:hover {
+    background: rgba(0, 75, 172, 0.7);
+}
+
+li.slick-active button {
+    background: #004b98;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+/*---------------------------------------FIM SLIDER---------------------------------------*/
