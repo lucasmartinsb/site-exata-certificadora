@@ -1,0 +1,39 @@
+.footer {
+    bottom: 0px;
+    margin-top: 60px;
+    height: 250px;
+    width: 100%;
+    background-color: #00264d;
+}
+
+.map {
+    /*background-color: bisque;*/
+    margin-left: 500px;
+    height: 100%;
+    width: 250px;
+    color: white;
+}
+
+.map h2{
+
+    position: relative;
+    top: 20px;
+}
+
+.map ul {
+    list-style-type: none;
+}
+
+.map ul li {
+    line-height: 40px;
+}
+
+.map ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.map a:hover {
+    color: #004b98;
+    transition: ease 0.3s;
+}

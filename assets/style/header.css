@@ -13,7 +13,7 @@ main {
   
   body {
     margin: 0px;
-    font-family: 'Arial';
+    font-family: 'Helvetica';
   }
 
 
@@ -74,6 +74,7 @@ main {
     border-bottom: 3px solid #004b98;
     border-radius: 1.5px;
     color: #004b98;
+    transition: ease 0.3s;
   }
   
   .nav > #nav-check {

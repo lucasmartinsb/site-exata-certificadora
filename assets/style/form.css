@@ -1,20 +1,42 @@
+.txt {
+    position: absolute;
+    width: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .txt h1 {
-    color: #004b98;
+    color: #818181;
     text-align: center;
+}
+
+.txt img{
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -20px;
+    width: 140px;
+    position: absolute;
 }
 
 .txt p {
     text-align: center;
-    color: #818181;
+    color: #9a9a9a;
+}
+
+.fale-conosco {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    top: 200px;
 }
 
 fieldset{
-    position: absolute;
-    left: 49.5%;
+    position: relative;
+    left: 35%;
     transform: translateX(-50%);
-    top: 200px;
-    width: 500px;
-    height: 500px;
+    top: 50%;
+    width: 700px;
+    height: 420px;
     border: white;
 }
 
@@ -24,120 +46,177 @@ fieldset{
     display:block;
 }
 
-legend{
-    font-style: bold;
-    font-family:Arial;
-    text-align: center;
-
-}
-
 ::placeholder{
     color:#818181;
 }
 
 #form label{
-    font-family: Arial;
-    color: #818181;
-    font-size: 14px;
+    font-family: Helvetica;
+    color: #393939;
+    font-size: 16px;
     position:absolute;
     text-align: baseline;
     margin-top: 5px;
-}
-
-#form input {
-    font-size: 16px;
-    height: 40px;
-    background-color: white;
-    border: 2px solid #818181;
-    border-radius: 3px;
-    position: absolute;
-    width: 97.6%;
-    margin-top: 2px;
-}
-
-.deptel {
-    width: 100%;
-    height: 30px;
+    font-style: bold;
 }
 
 #form select{
     background-color: white;
     font-size: 14px;
-    position: absolute;
+    position: relative;
     border-style:solid;
-    border: 2px solid #818181;
+    border: 1px solid #dddd;
     border-radius: 3px;
     right: 0%;
     width: 180px;
     height: 25px;
 }
 
-#form input.tel {
-    font-size: 14px;
-    height: 25px;
+#form input {
+    font-size: 16px;
+    height: 40px;
     background-color: white;
-    border: 2px solid #818181;
-    border-radius: 3px;
-    position: absolute;
-    margin-left: 55px;
-    width: 28%;
-    margin-top: 0px;
-}
-
-#form input.btn_submit{
-    cursor: pointer;
+    border: 1px solid #dddd;
     color: #818181;
-    border-style:solid;
     border-radius: 3px;
-    position:absolute;
-    bottom: 4px;
-    right: 50%;
-    transform: translateX(50%);
-    background-color: #dddddd;
+    position: relative;
+    width: 100%;
+    margin-top: 2px;
+    font-family: Helvetica;
 }
 
-#form label.depl{
-    right: 185px;
+.nome {
+    width: 330px;
+    height: 60px;
 }
 
-select .dep{
-    border: 2px solid #818181;
-    border-radius: 3px;
+.email {
+    width: 330px;
+    height: 60px;
+    right: 5px;
+    top: 3px;
+    position: fixed;
 }
 
-select{
-    color:#818181;
+#form .email label {
+    right: 295px;
 }
 
-#form label.assuntol {
-    margin-top: 35px;
+.tel {
+    width: 330px;
+    height: 60px;
+    top: 20px;
 }
 
-#form input.assunto {
-    margin-top: 35px;
+.dep {
+    width: 330px;
+    height: 60px;
+    top: 65px;
+    right: 10px;
+    position: fixed;
+}
+
+#form select.dep {
+    color: #818181;
+    width: 100%;
+    height: 40px;
+    top: 22px;
+    font-size: 16px;
+}
+
+.assunto {
+    width: 100%;
+    height: 60px;
+}
+
+.msg {
+    width: 100%;
+    height: 150px;
 }
 
 #form textarea {
-    font-family: Arial;
+    border: 1px solid #dddd;
     font-size: 16px;
-    background-color: white;
-    border: 2px solid #818181;
-    border-radius: 3px;
+    font-family: Helvetica;
+    border-radius: 8px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.submit {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    position: relative;
+    width: 100px;
+    font-size: 16px;
+}
+
+#form input.submitc {
+    cursor: pointer;
+    background-color: #004b98;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#form input.submitc:hover {
+    background-color: #00376e;
+    transition: ease 0.3s;
+}
+
+
+
+
+
+#contact {
+    background-color: #dddd;
+    position: relative;
+    width: 400px;
+    height: 380px;
+    right: -55%;
+    top: -100%;
+    border-radius: 5px;
+}
+
+#contact img {
+    width: auto;
+    height: auto;
+    max-height: 35px;
+}
+
+#tel_img {
+    width: 35px;
+    height: 35px;
     position: absolute;
-    width: 97.6%;
-    height: 150px;
-    margin-top: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-#form label.msgl {
-    margin-top: 25px;
+.txt-contact {
+    font-family: Helvetica;
 }
 
-#form textarea.msg {
-    margin-top: 25px;
+.txt-contact h3 {
+    font-size: 20;
+    color: #818181;
+    text-transform: uppercase;
 }
 
-@media (max-width:980px) {
+.txt-contact p {
+    font-size: 16;
+    color: #9a9a9a;
+    margin-top: -30px;
+}
+
+#txt-tel {
+    position: absolute;
+    width: 330px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+
+/*media (max-width:1180px) {
     fieldset {
         width: 700px;
     }

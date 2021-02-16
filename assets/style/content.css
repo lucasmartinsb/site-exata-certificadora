@@ -10,7 +10,7 @@
 }
 
 .aboutus > div > h1 {
-  font-family: Arial;
+  font-family: Helvetica;
   text-align: center;
   color: #818181;
   font-size: 30px;
@@ -20,7 +20,7 @@
 }
 
 .aboutus > div > p{
-  font-family: Arial;
+  font-family: Helvetica;
   text-align: center;
   color: #9a9a9a;
   width: 305px;
@@ -92,7 +92,7 @@
 }
 
 .quadros p {
-  font-family: Arial;
+  font-family: Helvetica;
   text-align: center;
   color: #9a9a9a;
   line-height: 20px;
@@ -104,7 +104,7 @@
 }
 
 .quadros h2 {
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 20px;
   position: absolute;
   bottom: 50px;
@@ -159,20 +159,20 @@
 
 .inflamable h2 {
   color: #818181;
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 20px;
   top: 155px;
 }
 .chair h2 {
   color: #818181;
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 20px;
   top: 185px;
 }
 
 .glp h2 {
   color: #818181;
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 20px;
   top: 155px;
 }
@@ -243,7 +243,7 @@
 }
 
 .acreditacao h1{
-  font-family: Arial;
+  font-family: Helvetica;
   text-align: center;
   color: #818181;
   text-transform: uppercase;
@@ -251,7 +251,7 @@
 }
 
 .acreditacao p{
-  font-family: Arial;
+  font-family: Helvetica;
   color: #818181;
   position: fixed;
   top: 35px;
@@ -260,7 +260,7 @@
 }
 
 .acreditacao li {
-  font-family: Arial;
+  font-family: Helvetica;
   color: #818181;
   left: 20px;
   top: -16px;

@@ -41,41 +41,74 @@
         </div>
     </div>
 
+    <div class='txt'>
+        <h1>Fale conosco</h1>
+        <img src='./assets/imgs/line.svg'>
+        <p>Envie-nos uma mensagem.<br>Teremos o maior prazer em atendê-lo!</p>
+    </div>
 
-    <div id='form_area'>
-        <div class='txt'>
-            <h1>Fale conosco</h1>
-            <p>Envie-nos uma mensagem.<br>Teremos o maior prazer em atendê-lo!</p>
-        </div>
-        <form id='form' autocomplete="on">
-            <fieldset>
-                <label>Nome</label><br>
-                <input class='nome' type='text' placeholder="Digite seu nome"><br><br><br>
+    <div class='fale-conosco'>
+        <div id='form_area'>
+            <form id='form' autocomplete="on">
+                <fieldset>
 
-                <label>Email</label><br>
-                <input class='email' type='email' placeholder="Digite seu Email"><br><br><br>
+                    <div class='nome'>
+                        <label>Nome</label><br>
+                        <input class='nome' type='text' placeholder="Digite seu nome">
+                    </div>
                     
-                <label>Telefone</label>
-                <input class='tel' type='tel' placeholder='Digite seu telefone'>
+                    <div class='email'>
+                        <label>Email</label><br>
+                        <input class='email' type='email' placeholder="Digite seu Email">
+                    </div>
+                    
+                    <div class='tel'>
+                        <label>Telefone</label>
+                        <input class='tel' type='tel' data-mask='(00) 00000-0000' data-mask-selectonfocus='true' placeholder='Digite seu telefone'>
+                    </div>
+                    
+                    <div class='dep'>
+                        <label class='depl'>Departamento</label>
+                        <select class='dep'>
+                            <option selected disabled value=''>Selecione</option>
+                            <option>Comercial</option>
+                            <option>Financeiro</option>
+                            <option>Apelação</option>
+                            <option>Contato</option>
+                            <option>Outro</option><br>
+                        </select>
+                    </div>
+                    
+                    <div class='assunto'>
+                        <label class='assuntol'>Assunto</label><br>
+                        <input class='assunto' type='text' placeholder='Digite o assunto'>
+                    </div>
 
-                <label class='depl'>Departamento</label>
-                <select class='dep'><br><br><br>
-                    <option selected disabled value=''>Selecione</option>
-                    <option>Comercial</option>
-                    <option>Financeiro</option>
-                    <option>Apelação</option>
-                    <option>Contato</option>
-                    <option>Outro</option><br>
-                </select>
+                    <div class='msg'>
+                        <label class='msgl'>Mensagem</label><br>
+                        <textarea class='msg' placeholder='Digite sua mensagem'></textarea>
+                    </div>
 
-                <label class='assuntol'>Assunto</label><br>
-                <input class='assunto' type='text' placeholder='Digite o assunto'><br><br><br>
-
-                <label class='msgl'>Mensagem</label><br>
-                <textarea class='msg' placeholder='Digite sua mensagem'></textarea>
-
-                <input class='btn_submit' type='submit' value='Enviar'>
-            </fieldset>
-        </form>
+                    <div class='submit'>
+                        <input class='submitc' type='submit' value='Enviar'>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id='contact'>
+            <div class='tel-contact'>
+                <div id='tel_img'>
+                    <img src='./assets/imgs/tel.svg'>
+                </div>
+                <div class='txt-contact' id='txt-tel'>
+                    <h3>Telefones para contato</h3><br>
+                    <p>(54) 98405-6510</p><br>
+                    <p>(54) 98435-8801</p>
+                </div>
+            </div>
+            <div class='email-contact'>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

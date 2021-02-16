@@ -53,6 +53,7 @@ button.slick-next{
 
 .slick-dots li button:hover {
     background: rgba(0, 75, 172, 0.7);
+    transition: ease 0.3s;
 }
 
 li.slick-active button {
