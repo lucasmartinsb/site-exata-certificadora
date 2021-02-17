@@ -42,93 +42,96 @@
         </div>
     </div>
 
-    <div class='txt'>
-        <h1>Fale conosco</h1>
-        <img src='./assets/imgs/line.svg'>
-        <p>Envie-nos uma mensagem.<br>Teremos o maior prazer em atendê-lo!</p>
-    </div>
 
-    <div class='fale-conosco'>
-        <div id='form_area'>
-            <form id='form' autocomplete="on">
-                <fieldset>
-                    <div class='field'>
-                        <div class='nome form-field'>
-                            <label>Nome</label><br>
-                            <input class='nome' type='text' placeholder="Digite seu nome">
-                        </div>
-                            
-                        <div class='email form-field'>
-                            <label>Email</label><br>
-                            <input class='email' type='email' placeholder="Digite seu Email">
-                        </div>
-                        
+    <div id='fale-conosco-container'>
+        <div class='txt'>
+            <h1>Fale conosco</h1>
+            <img src='./assets/imgs/line.svg'>
+            <p>Envie-nos uma mensagem.<br>Teremos o maior prazer em atendê-lo!</p>
+        </div>
 
-                            <div class='tel form-field'>
-                                <label>Telefone</label>
-                                <input class='tel' type='tel' data-mask='(00) 00000-0000' data-mask-selectonfocus='true' placeholder='Digite seu telefone'>
+        <div class='fale-conosco-contato'>
+            <div id='form_area'>
+                <form id='form' autocomplete="on">
+                    <fieldset>
+                        <div class='field'>
+                            <div class='nome form-field'>
+                                <label>Nome</label><br>
+                                <input class='nome' type='text' placeholder="Digite seu nome">
+                            </div>
+                                
+                            <div class='email form-field'>
+                                <label>Email</label><br>
+                                <input class='email' type='email' placeholder="Digite seu Email">
                             </div>
                             
-                        <div class='dep form-field'>
-                            <label class='depl'>Departamento</label>
-                            <select class='dep'>
-                                <option selected disabled value=''>Selecione</option>
-                                <option>Comercial</option>
-                                <option>Financeiro</option>
-                                <option>Apelação</option>
-                                <option>Contato</option>
-                                <option>Outro</option><br>
-                            </select>
+
+                                <div class='tel form-field'>
+                                    <label>Telefone</label>
+                                    <input class='tel' type='tel' data-mask='(00) 00000-0000' data-mask-selectonfocus='true' placeholder='Digite seu telefone'>
+                                </div>
+                                
+                            <div class='dep form-field'>
+                                <label class='depl'>Departamento</label>
+                                <select class='dep'>
+                                    <option selected disabled value=''>Selecione</option>
+                                    <option>Comercial</option>
+                                    <option>Financeiro</option>
+                                    <option>Apelação</option>
+                                    <option>Contato</option>
+                                    <option>Outro</option><br>
+                                </select>
+                            </div>
+
+                            
+
+                            <div class='assunto'>
+                                <label class='assuntol'>Assunto</label><br>
+                                <input class='assunto' type='text' placeholder='Digite o assunto'>
+                            </div>
+
+                            <div class='msg'>
+                                <label class='msgl'>Mensagem</label><br>
+                                <textarea class='msg' placeholder='Digite sua mensagem'></textarea>
+                            </div>
+                        </div>
+                        <div class='submit'>
+                            <input class='submitc' type='submit' value='Enviar'>
                         </div>
 
-                        
-
-                        <div class='assunto'>
-                            <label class='assuntol'>Assunto</label><br>
-                            <input class='assunto' type='text' placeholder='Digite o assunto'>
-                        </div>
-
-                        <div class='msg'>
-                            <label class='msgl'>Mensagem</label><br>
-                            <textarea class='msg' placeholder='Digite sua mensagem'></textarea>
-                        </div>
-                    </div>
-                    <div class='submit'>
-                        <input class='submitc' type='submit' value='Enviar'>
-                    </div>
 
 
-
-                </fieldset>
-            </form>
-        </div>
-        <div id='contact'>
-            <!----------TELEFONE---------->
-            <div class='contact-grid'>
-                <div class='contact-img'>
-                    <img src='./assets/imgs/tel.svg'>
-                </div>
-
-                <div class='contact-txt' id='tel-txt'>
-                    <h3>Telefones</h3>
-                    <a href='tel:54984056510'>(54) 98405-6510</a><br>
-                    <a href='tel:54984358801'>(54) 98435-8801</a>
-                </div>
+                    </fieldset>
+                </form>
             </div>
+            <div id='contact'>
+                <!----------TELEFONE---------->
+                <div class='contact-grid'>
+                    <div class='contact-img'>
+                        <img src='./assets/imgs/tel.svg'>
+                    </div>
 
-            <!-----------EMAIL---------->
-            <div class='contact-grid'>
-                <div class='contact-img'>
-                    <img src='./assets/imgs/mail.svg'>
+                    <div class='contact-txt' id='tel-txt'>
+                        <h3>Telefones</h3>
+                        <a href='tel:54984056510'>(54) 98405-6510</a><br>
+                        <a href='tel:54984358801'>(54) 98435-8801</a>
+                    </div>
                 </div>
 
-                <div class='contact-txt' id='mail-txt'>
-                    <h3>Email</h3>
-                    <a href='mailto:exata@exatacertificadora.com.br'>exata@exatacertificadora.com.br</a>
+                <!-----------EMAIL---------->
+                <div class='contact-grid'>
+                    <div class='contact-img'>
+                        <img src='./assets/imgs/mail.svg'>
+                    </div>
+
+                    <div class='contact-txt' id='mail-txt'>
+                        <h3>Email</h3>
+                        <a href='mailto:exata@exatacertificadora.com.br'>exata@exatacertificadora.com.br</a>
+                    </div>
                 </div>
+
+                <!---->
             </div>
-
-            <!---->
         </div>
     </div>
 </body>

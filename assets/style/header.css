@@ -106,7 +106,7 @@ main {
     z-index: 9;
   }
 
-  @media (max-width:1210px) {
+  @media (max-width:1430px) {
     .logo {
         left: 50%;
         transform: translateX(-50%);

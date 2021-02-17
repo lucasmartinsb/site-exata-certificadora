@@ -1,8 +1,16 @@
+#fale-conosco-container {
+    height: auto;
+    display: grid;
+    grid-template-rows: 135px 640;
+    justify-content: center;
+}
+
 .txt {
-    position: absolute;
-    width: 280px;
+    grid-row: 1;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
+    width: 280px;
 }
 
 .txt h1 {
@@ -11,11 +19,9 @@
 }
 
 .txt img{
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: 70px;
     margin-top: -20px;
     width: 140px;
-    position: absolute;
 }
 
 .txt p {
@@ -23,23 +29,16 @@
     color: #9a9a9a;
 }
 
-.fale-conosco {
-    position: relative;
+.fale-conosco-contato {
     width: 100%;
     height: 420px;
-    top: 200px;
+    display: grid;
+    grid-template-columns: 700px 360px;
 }
 
-
-
-
 fieldset{
-    position: absolute;
-    left: 650px;
-    transform: translateX(-50%);
-    top: 10px;
     width: 700px;
-    height: 460px;
+    height: 600px;
     border: white;
 }
 
@@ -74,7 +73,6 @@ fieldset{
     border: 1px solid #dddd;
     color: #818181;
     border-radius: 3px;
-    position: relative;
     width: 100%;
     margin-top: 2px;
     font-family: Helvetica;
@@ -171,15 +169,13 @@ fieldset{
 
 #contact {
     background-color: #dddd;
-    position: absolute;
     width: 360px;
     height: 380px;
-    right: 275px;
-    top: 10px;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 90px 90px 90px;
+    margin-top: 20px;
 }
 
 #contact img {
@@ -222,42 +218,57 @@ fieldset{
 
 
 
-@media (max-width:1700px) {
-    fieldset {
-        height: 620px;
-        width: 450px;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -50px;
+@media (max-width:1160PX) {
+    .fale-conosco-contato {
+        grid-template-columns: 450px 0px;
+        grid-template-rows: 600px 380px;
     }
-    
+
     .field {
         grid-template-columns: 450px 0px;
         grid-template-rows: 75px 75px 75px 75px 75px 185px;
+        width: 450px;
     }
 
-    .form-field {
+    .nome {
         width: 100%;
+    }
+
+    .email {
         grid-column: 1;
-        grid-row: auto;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .tel {
+        grid-row: 3;
+        width: 100%;
+    }
+
+    .dep {
+        grid-column: 1;
+        grid-row: 4;
+        width: 100%;
     }
 
     .assunto {
-        width: 100%;
+        grid-row: 5;
     }
 
     .msg {
-        grid-row: auto;
-    }
-
-    .submit {
-        transform: translateX(165%);
+        grid-row: 6;
     }
 
     #contact {
-        top: -30px;
-        left: 50%;
+        grid-row: 2;
+        margin-left: 50%;
         transform: translateX(-50%);
-    }    
+    }
+  
+    #form input.submitc {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-120%);
+    }
 
 }
