@@ -30,20 +30,17 @@
     top: 200px;
 }
 
-fieldset{
-    position: relative;
-    left: 35%;
-    transform: translateX(-50%);
-    top: 50%;
-    width: 700px;
-    height: 420px;
-    border: white;
-}
 
-#area #formulario
-{
-    position:absolute;
-    display:block;
+
+
+fieldset{
+    position: absolute;
+    left: 650px;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 700px;
+    height: 460px;
+    border: white;
 }
 
 ::placeholder{
@@ -54,9 +51,7 @@ fieldset{
     font-family: Helvetica;
     color: #393939;
     font-size: 16px;
-    position:absolute;
     text-align: baseline;
-    margin-top: 5px;
     font-style: bold;
 }
 
@@ -85,53 +80,63 @@ fieldset{
     font-family: Helvetica;
 }
 
+.field {
+    display: grid;
+    grid-template-columns: 340px 330px;
+    grid-template-rows: 75px 75px 75px 185px;
+}
+
+.form-field {
+    width: 330px;
+    height: 60px;
+}
+
 .nome {
     width: 330px;
     height: 60px;
+    grid-column-start: 1;
 }
 
 .email {
-    width: 330px;
-    height: 60px;
-    right: 5px;
-    top: 3px;
-    position: fixed;
-}
-
-#form .email label {
-    right: 295px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .tel {
-    width: 330px;
-    height: 60px;
-    top: 20px;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .dep {
-    width: 330px;
-    height: 60px;
-    top: 65px;
-    right: 10px;
-    position: fixed;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    margin-top: 1px; /* N SEI PQ PRECISA*/
 }
 
 #form select.dep {
     color: #818181;
     width: 100%;
     height: 40px;
-    top: 22px;
     font-size: 16px;
 }
 
 .assunto {
     width: 100%;
     height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
 }
 
 .msg {
     width: 100%;
     height: 150px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
 }
 
 #form textarea {
@@ -139,17 +144,13 @@ fieldset{
     font-size: 16px;
     font-family: Helvetica;
     border-radius: 8px;
-    margin-top: 5px;
     resize: none;
 }
 
 .submit {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 30px;
-    position: relative;
     width: 100px;
     font-size: 16px;
+    transform: translateX(250%);
 }
 
 #form input.submitc {
@@ -170,54 +171,93 @@ fieldset{
 
 #contact {
     background-color: #dddd;
-    position: relative;
-    width: 400px;
+    position: absolute;
+    width: 360px;
     height: 380px;
-    right: -55%;
-    top: -100%;
+    right: 275px;
+    top: 10px;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px 90px 90px;
 }
 
 #contact img {
-    width: auto;
+    width: 35px;
     height: auto;
     max-height: 35px;
 }
 
-#tel_img {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.txt-contact {
-    font-family: Helvetica;
-}
-
-.txt-contact h3 {
+#contact h3 {
     font-size: 20;
     color: #818181;
-    text-transform: uppercase;
+    line-height: 0px;
 }
 
-.txt-contact p {
+#contact a {
+    color: #818181;
     font-size: 16;
-    color: #9a9a9a;
-    margin-top: -30px;
+    text-decoration: none;
+    line-height: 20px;
 }
 
-#txt-tel {
-    position: absolute;
-    width: 330px;
-    height: 65px;
-    margin-top: -10px;
-    margin-left: 70px;
+.contact-img {
+    transform: translateY(50%);
+    margin-left: 30%;
+    width: 35px;
+    height: 35px;
 }
 
-/*media (max-width:1180px) {
+.contact-txt {
+    margin-left: 15px;
+}
+
+.contact-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 350px;
+    grid-template-rows: 85px;
+}
+
+
+
+
+@media (max-width:1700px) {
     fieldset {
-        width: 700px;
+        height: 620px;
+        width: 450px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -50px;
     }
+    
+    .field {
+        grid-template-columns: 450px 0px;
+        grid-template-rows: 75px 75px 75px 75px 75px 185px;
+    }
+
+    .form-field {
+        width: 100%;
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .assunto {
+        width: 100%;
+    }
+
+    .msg {
+        grid-row: auto;
+    }
+
+    .submit {
+        transform: translateX(165%);
+    }
+
+    #contact {
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }    
+
 }

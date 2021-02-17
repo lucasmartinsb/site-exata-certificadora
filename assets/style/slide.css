@@ -17,7 +17,7 @@ button.slick-prev{
     position: absolute;
     z-index: 9;
     top: 50%;
-    left: 14%;
+    left: 300px;
 }
 
 button.slick-next{
@@ -30,7 +30,7 @@ button.slick-next{
     position: absolute;
     z-index: 9;
     top: 50%;
-    left: 86%;
+    right: 300px;
 }
 
 .slick-dots li button {

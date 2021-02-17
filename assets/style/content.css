@@ -9,7 +9,7 @@
   top: 20px;
 }
 
-.aboutus > div > h1 {
+.aboutus div h1 {
   font-family: Helvetica;
   text-align: center;
   color: #818181;
@@ -19,7 +19,12 @@
   width: 304px;
 }
 
-.aboutus > div > p{
+.aboutus h1:hover {
+  transition: ease 0.3s;
+  color: #585858;
+}
+
+.aboutus div p{
   font-family: Helvetica;
   text-align: center;
   color: #9a9a9a;
@@ -97,7 +102,7 @@
   color: #9a9a9a;
   line-height: 20px;
   position: absolute;
-  bottom: -5px;
+  bottom: -12px;
   right: 50%;
   transform: translateX(50%);
   width: 205px;
@@ -111,6 +116,11 @@
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.quadros h2:hover {
+  transition: ease 0.3s;
+  color: #585858;
 }
 
 .quadros ul{
@@ -142,6 +152,17 @@
   transform: translateX(-50%);
 }
 
+.chair p{
+  bottom: 20px;
+}
+
+.chair h2 {
+  color: #818181;
+  font-family: Helvetica;
+  font-size: 20px;
+  top: 185px;
+}
+
 .chair > img{
   max-height: 190px;
 }
@@ -163,12 +184,7 @@
   font-size: 20px;
   top: 155px;
 }
-.chair h2 {
-  color: #818181;
-  font-family: Helvetica;
-  font-size: 20px;
-  top: 185px;
-}
+
 
 .glp h2 {
   color: #818181;
@@ -177,9 +193,7 @@
   top: 155px;
 }
 
-.chair p{
-  bottom: 25px;
-}
+
 @media screen and (max-width: 1080px){
   .quadros{
     height: 1100px;
