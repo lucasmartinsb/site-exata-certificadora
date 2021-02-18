@@ -1,0 +1,35 @@
+#processo-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 980px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 130px 850px;
+    grid-template-rows: 130px 130px 130px 130px 130px 130px ;
+}
+
+.iconify {
+    font-size: 30px;
+    color: #004b98;
+    float: right;
+    margin-top: 10px;
+}
+
+#processo-container p {
+    text-align: justify;
+    color: #9a9a9a;
+    margin-left: 10px;
+}
+
+#processo-container h1 {
+    font-size: 28px;
+    color: #818181;
+    margin-left: 10px;
+    margin-top: 25px;
+    line-height: 0px;
+}
+
+.processo-footer {
+    margin-top: 50px;
+}

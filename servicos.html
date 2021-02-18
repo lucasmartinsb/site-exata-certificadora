@@ -12,6 +12,7 @@
         <link rel="stylesheet" href='./assets/style/servicos.css'>
         <link rel='stylesheet' type='text/css' href='./assets/fontawesome/css/all.min.css'>
         <link rel="shortcut icon" href='./assets/imgs/favicon.ico'>
+        <title>Exata certificadora</title>
 </head>
 <body>
     <!----------NAVBAR---------->
@@ -48,14 +49,35 @@
     <!----------FIM NAVBAR---------->
 
     <div class='txt'>
-        <h1>Certificação</h1>
+        <h1>Nossos serviços</h1>
         <img src='./assets/imgs/line.svg'>
         <p>Somos acreditados pelo Cgcre para realização das seguintes certificações</p>
     </div>
 
-    <div id='servicos-container'>
-        <div id='certif-comp'>
-            <h1>Certificação compulsória</h1>
+    <div id='certificado'>
+        <img src='./assets/imgs/Certificado.jfif'>
+    </div>
+
+
+
+    <div id="servicos-container">
+        <div id='insp'>
+            <h1>Inspeção</h1>
+            <p>Possuimos técnicos especializados para a inspeção de qualidade em 
+               processos de fabricação de mobiliário e, também avaliação de 
+               especificações técnicas de editais públicos.</p>
+        </div>
+
+
+        <div id='certif-pint'>
+            <h1>Certificações do processo de preparação e pintura em superfícies metálicas</h1>
+            <p>Avaliamos os processos de preparação e pintura de superfícies metálicas com o 
+               intuito de comprovar a capacidade de atendimento das indústrias às especificações 
+               do mercado.</p>
+        </div>
+
+        <button class="collapsible">Certificação compulsória</button>
+        <div class="content">
             <ul>
                 <li>Cadeiras plásticas Monobloco – Portarias: 341/2014 e 342/2014 do Inmetro;</li>
                 <li>Conjunto aluno (mobiliário escolar) – Portaria 105/2012  e 184/2015 do Inmetro;</li>
@@ -71,8 +93,8 @@
             </ul>
         </div>
 
-        <div id='certif-vol'>
-            <h1>Certificação voluntária</h1>
+        <button class="collapsible">Certificação voluntária</button>
+        <div class="content">
             <h2>Mobiliário de escritório (corporativo)</h2>
             <ul>
                 <li>NBR 13961:2010 Móveis para escritório – Armários;</li>
@@ -110,23 +132,13 @@
             </ul>
         </div>
 
-        <div id='insp'>
-            <h1>Inspeção</h1>
-            <p>Possuimos técnicos especializados para a inspeção de qualidade em 
-               processos de fabricação de mobiliário e, também avaliação de 
-               especificações técnicas de editais públicos.</p>
-        </div>
 
-        <div id='certif-pint'>
-            <h1>Certificações do processo de preparação e pintura em superfícies metálicas</h1>
-            <p>Avaliamos os processos de preparação e pintura de superfícies metálicas com o 
-               intuito de comprovar a capacidade de atendimento das indústrias às especificações 
-               do mercado.</p>
-        </div>
+
+        
     </div>
 
     <!----------RODAPÉ---------->
-    <div id='footer'>
+    <div id='footer' class='servicos-footer'>
         <div id='map'>
             <h2>Mapa do site</h2>
             <ul>
@@ -172,4 +184,24 @@
     </div>
     <!----------FIM RODAPÉ---------->
 </body>
+
+
+<!--COLLLPSIBLE-->
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+</script>
+
 </html>

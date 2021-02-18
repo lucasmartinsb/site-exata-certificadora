@@ -225,12 +225,20 @@ fieldset{
     margin-top: 15px;
 }
 
-
-
-
-
+.fale-conosco-footer {
+    margin-top: 127px;
+}
 
 @media (max-width:1160PX) {
+    fieldset {
+        width: 450px;
+    }
+
+    #fale-conosco-container {
+        height: 1200px;
+        grid-template-rows: 150px 600px;
+    }
+
     .fale-conosco-contato {
         grid-template-columns: 450px 0px;
         grid-template-rows: 600px 380px;

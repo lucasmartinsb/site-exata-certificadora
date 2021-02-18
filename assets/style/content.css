@@ -52,7 +52,7 @@
   transform: translateX(20%);
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1100px){
   .aboutus {
     width: 305px;
     height: 330px;
@@ -193,12 +193,17 @@
   top: 155px;
 }
 
+/*RODAPÉ*/
+.index-footer {
+  margin-top: 150px;
+}
 
-@media screen and (max-width: 1080px){
+
+@media screen and (max-width: 1100px){
   .quadros{
-    height: 1100px;
+    height: 1310px;
     width: 100%;
-    top: 40px;
+    top: 60px;
   }
 
   .quadros p {
@@ -207,102 +212,26 @@
 
   .chair {
     width: 305px;
+    top: 450px;
   }
 
   .glp {
     width: 305px;
-    top: 390px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
   }
   .inflamable {
     width: 305px;
-    top: 750px;
+    top: 900px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .index-footer {
+    margin-top: 100px;
+    
   }
 }
 /*---------------------------------------FIM QUADROS PRODUTOS---------------------------------------*/
 
-/*---------------------------------------QUADRO ACREDITACOES---------------------------------------*/
-.txt_quadro {
-  background-color: #e6e6e6;
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  width: 1000px;
-  height: 270px;
-  top: 1450px;
-  z-index: 9;
-  border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-}
-
-.txt_quadro img {
-  position: absolute;
-  top: -50px;
-  max-height: 50px;
-  width: auto;
-}
-
-.acreditacao {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 910px;
-  height: 270px;
-}
-.acreditacao ul {
-  height: 160px;
-}
-
-.acreditacao h1{
-  font-family: Helvetica;
-  text-align: center;
-  color: #818181;
-  text-transform: uppercase;
-  line-height: 30px;
-}
-
-.acreditacao p{
-  font-family: Helvetica;
-  color: #818181;
-  position: fixed;
-  top: 35px;
-  right: 10px;
-  line-height: 40px;
-}
-
-.acreditacao li {
-  font-family: Helvetica;
-  color: #818181;
-  left: 20px;
-  top: -16px;
-  position: relative;
-  line-height: 3px;
-}
-
-@media screen and (max-width: 1080px){
-  .txt_quadro{
-    top: 2250px;
-    width: 90%;
-  }
-  .txt_quadro img {
-    height: 25px;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .acreditacao h1 {
-    font-size: 20px;
-  }
-  .acreditacao p {
-    font-size: 10px;
-  }
-  .acreditacao li {
-    font-size: 10px;
-  }
-
-}
-
-/*---------------------------------------FIM QUADRO ACREDITACOES---------------------------------------*/

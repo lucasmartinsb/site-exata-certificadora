@@ -30,6 +30,10 @@
     color: #9a9a9a;
 }
 
+.quem-somos-footer {
+    margin-top: 120px;
+}
+
 @media (max-width:1160PX) {
     #quem-somos-container {
         grid-template-rows: 145px 145px 145px 145px 145px 145px 145px 145px;
