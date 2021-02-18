@@ -1,6 +1,6 @@
 #footer {
     bottom: 0px;
-    margin-top: 60px;
+    margin-top: 150px;
     height: 270px;
     width: 100%;
     background-color: #00264d;
@@ -50,3 +50,70 @@
     transition: ease 0.3s;
 }
 
+#redes-sociais-footer {
+    height: 40px;
+    margin-top: 10px;
+}
+
+#redes-sociais-footer i {
+    font-size: 32px;
+    color:white; 
+  }
+
+#redes-sociais-footer i:hover {
+    color: #004b98;
+    transition: ease 0.3s;
+  }
+
+#redes-sociais-footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+@media (max-width:1100px) {
+    #footer {
+    height: 800px;
+    grid-template-columns: 100%;
+    grid-template-rows: 270px 270px 270px;
+    align-content: center;
+    }
+
+    #map {
+        transform: translateX(-50%);
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    #contato {
+        transform: translateX(-50%);
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    #local-footer {
+        text-align: center;
+        height: 250px;
+    }
+
+    .mapouter {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+}
+
+
+/* PARA CELULAR
+<div id='redes-sociais-footer'>
+<ul>
+    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+</ul>
+</div>
+
+*/

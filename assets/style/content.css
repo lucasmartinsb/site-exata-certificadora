@@ -2,11 +2,11 @@
 /*---------------------------------------QUADROS ABOUTUS---------------------------------------*/
 .aboutus {
   position: relative;
-  width: 980px;
-  height: 300px;
+  width: 1070px;
+  height: 150px;
   left: 50%;
   transform: translateX(-50%);
-  top: 20px;
+  top: 50px;
 }
 
 .aboutus div h1 {
@@ -32,14 +32,14 @@
 }
 
 .about {
-  width: 31%;
+  width: 305px;
   position: absolute;
   top: 0px;
   left: 20px;
 }
 
 .rand {
-  width: 31%;
+  width: 305px;
   position: absolute;
   top: 0px;
   right: 20px;
@@ -79,9 +79,9 @@
 /*---------------------------------------QUADROS PRODUTOS---------------------------------------*/
 .quadros {
   position: relative;
-  width: 880px;
-  height: 450px;
-  top: -80px;
+  width: 1050px;
+  height: 460px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -102,10 +102,10 @@
   color: #9a9a9a;
   line-height: 20px;
   position: absolute;
-  bottom: -12px;
+  bottom: 20px;
   right: 50%;
   transform: translateX(50%);
-  width: 205px;
+  width: 90%;
 }
 
 .quadros h2 {
@@ -131,29 +131,29 @@
 
 .inflamable {
   position: absolute;
-  height: 350px;
-  width: 220px;
+  height: 400px;
+  width: 300px;
   border: 3px solid #004b98;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   border-radius: 20px;
-  bottom: 15px;
-  left: 30px;
+  bottom: 0;
+  left: 0;
 }
 
 .chair {
   position: absolute;
-  height: 350px;
-  width: 220px;
+  height: 400px;
+  width: 300px;
   border: 3px solid #004b98;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   border-radius: 20px;
-  top: 30px;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .chair p{
-  bottom: 20px;
+  bottom: 40px;
 }
 
 .chair h2 {
@@ -169,13 +169,13 @@
 
 .glp {
   position: absolute;
-  height: 350px;
-  width: 220px;
+  height: 400px;
+  width: 300px;
   border: 3px solid #004b98;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   border-radius: 20px;
-  bottom: 15px;
-  right: 30px;
+  bottom: 0;
+  right: 0;
 }
 
 .inflamable h2 {
@@ -224,7 +224,7 @@
 }
 /*---------------------------------------FIM QUADROS PRODUTOS---------------------------------------*/
 
-/*---------------------------------------QUADRO ACREDITAÇÕES---------------------------------------*/
+/*---------------------------------------QUADRO ACREDITAÃ‡Ã•ES---------------------------------------*/
 .txt_quadro {
   background-color: #e6e6e6;
   position: absolute;
@@ -305,4 +305,4 @@
 
 }
 
-/*---------------------------------------FIM QUADRO ACREDITAÇÕES---------------------------------------*/
+/*---------------------------------------FIM QUADRO ACREDITAÃ‡Ã•ES---------------------------------------*/
