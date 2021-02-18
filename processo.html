@@ -1,5 +1,5 @@
 <html lang='pt-br'>
-    <head>
+<head>
         <meta charset='UTF-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type='text/css' href='./assets/style/header.css'>
@@ -7,11 +7,13 @@
         <link rel="stylesheet" type='text/css' href='./assets/style/content.css'>
         <link rel="stylesheet" type='text/css' href='./assets/style/footer.css'>
         <link rel="stylesheet" type="text/css" href="./assets/js/slick.css"/>
+        <link rel="stylesheet" type='text/css' href='./assets/style/form.css'>
+        <link rel="stylesheet" href='./assets/style/quem-somos.css'>
         <link rel='stylesheet' type='text/css' href='./assets/fontawesome/css/all.min.css'>
         <link rel="shortcut icon" href="./assets/imgs/favicon.ico" />
-        <title>Exata certificadora</title>
-    </head>
-    <!---------------------------------------NAVBAR--------------------------------------->
+</head>
+<body>
+    <!----------NAVBAR---------->
     <div class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
@@ -42,11 +44,57 @@
             </ul>
         </div>
     </div>
-    <!---------------------------------------FIM NAVBAR--------------------------------------->
-    
+    <!----------FIM NAVBAR---------->
 
+    <div id='processo-container'>
+        
+    </div>
 
-    <body>
+    <!----------RODAPÉ---------->
+    <div id='footer'>
+        <div id='map'>
+            <h2>Mapa do site</h2>
+            <ul>
+                <li><a href='./index.html'>Página inicial</a></li>
+                <li><a href=''>Processo</a></li>
+                <li><a href='./servicos.html'>Serviços</a></li>
+                <li><a href=''>Quem somos</a></li>
+                <li><a href='./fale-conosco.html'>Fale conosco</a></li>
+            </ul>
+        </div>
 
-    </body>
+        <div id='contato'>
+            <h2>Contato</h2>
+            <ul>
+                <div class='contact-footer'>
+                    <li><i class="fas fa-phone-alt"></i><a href='tel:'> (54) 9999-9999</a></li>
+                </div>
+                <div class='contact-footer'>
+                    <li><i class="fas fa-phone-alt"></i><a href='tel:'> (21) 9999-9999</a></li>
+                </div>
+                <div class='contact-footer'>
+                    <li><i class="fab fa-whatsapp"></i><a href='https://api.whatsapp.com/send?phone=MUMERO&text=Oi!' target='_blank'> (54) 99999-9999</a></li>
+                </div>
+                <div class='contact-footer'>
+                    <li><i class="fab fa-whatsapp"></i><a href='https://api.whatsapp.com/send?phone=NUMERO&text=Oi!' target='_blank'> (21) 99999-9999</a></li>
+                </div>
+                <div class='contact-footer'>
+                    <li><i class="fas fa-envelope"></i><a href='mailto:exata@exatacertificadora.com.br'> exata@exatacertificadora.com.br</a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div id='local-footer'>
+            <h2>Nossa localização</h2>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="250" height="180" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Rio%20Branco,%20181%20-%20Centro,%20Rio%20de%20Janeiro%20-%20RJ,%2020040-007&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    <style>.mapouter{position:relative;text-align:right;height:180px;width:250px;}</style>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:180px;width:250px;}</style>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------FIM RODAPÉ---------->
+</body>
 </html>

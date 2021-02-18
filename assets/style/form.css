@@ -10,7 +10,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 280px;
+    width: 290px;
 }
 
 .txt h1 {
@@ -19,7 +19,7 @@
 }
 
 .txt img{
-    margin-left: 70px;
+    margin-left: 75px;
     margin-top: -20px;
     width: 140px;
 }
@@ -27,6 +27,7 @@
 .txt p {
     text-align: center;
     color: #9a9a9a;
+    margin-top: -10px;
 }
 
 .fale-conosco-contato {
@@ -159,7 +160,7 @@ fieldset{
 }
 
 #form input.submitc:hover {
-    background-color: #00376e;
+    background-color: #8c9399;
     transition: ease 0.3s;
 }
 
@@ -200,7 +201,7 @@ fieldset{
 }
 
 #contact a:hover {
-    color: #00376e;
+    color: #585858;
     transition: ease 0.3s;
 }
 
