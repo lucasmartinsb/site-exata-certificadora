@@ -33,3 +33,13 @@
 .processo-footer {
     margin-top: 50px;
 }
+
+@media (max-width:1100px) {
+    #processo-container {
+        width: 510px;
+        grid-template-columns: 30px 480px;
+    }
+    #footer {
+        margin-top: 35px;
+    }
+}

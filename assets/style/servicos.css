@@ -87,3 +87,24 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
+
+  @media (max-width:1100px) {
+  #certificado img {
+    max-height: 300px;
+  }
+
+  #certificado {
+    height: 300px;
+    width: 425px;
+    position: relative;
+  }
+
+  #servicos-container {
+    width: 600px;
+    grid-template-columns: 600px;
+  }
+
+  #footer {
+    margin-top: 50px;
+  }
+}
