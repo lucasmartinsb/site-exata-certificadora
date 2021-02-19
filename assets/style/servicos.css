@@ -3,7 +3,7 @@
     width: 680px;
     left: 50%;
     transform: translateX(-50%);
-    position: sticky;
+    position: relative;
 }
 
 #certificado img {
