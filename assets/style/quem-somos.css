@@ -36,9 +36,9 @@
 
 @media (max-width:1160PX) {
     #quem-somos-container {
-        grid-template-rows: 145px 145px 145px 145px 145px 145px 145px 145px;
-        grid-template-columns: 550px;
-        width: 550px;
+        grid-template-columns: 305px;
+        grid-template-rows: 110px 210px 110px 210px 110px 210px 110px 210px;
+        width: 305px;
         justify-items: center;
         text-align: -webkit-center;
     }
@@ -48,6 +48,6 @@
     }
 
     #footer {
-        margin-top: 775px;
+        margin-top: 1015px;
     }
 }

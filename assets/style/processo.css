@@ -6,7 +6,7 @@
     height: auto;
     display: grid;
     grid-template-columns: 130px 850px;
-    grid-template-rows: 130px 130px 130px 130px 130px 130px ;
+    grid-template-rows: 130px 130px 130px 130px 130px 130px; 
 }
 
 .iconify {
@@ -27,7 +27,7 @@
     color: #818181;
     margin-left: 10px;
     margin-top: 25px;
-    line-height: 0px;
+    /* line-height: 30px; */
 }
 
 .processo-footer {
@@ -36,10 +36,14 @@
 
 @media (max-width:1100px) {
     #processo-container {
-        width: 510px;
-        grid-template-columns: 30px 480px;
+        width: 305px;
+        grid-template-columns: 30px 275px;
+        grid-template-rows: auto;
     }
     #footer {
-        margin-top: 35px;
+        margin-top: 200px;
+    }
+    .iconify {
+        margin-top: 25px;
     }
 }

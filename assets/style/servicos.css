@@ -90,18 +90,18 @@
 
   @media (max-width:1100px) {
   #certificado img {
-    max-height: 300px;
+    max-width: 305px;
   }
 
   #certificado {
-    height: 300px;
-    width: 425px;
+    width: 305px;
+    height: 216px;
     position: relative;
   }
 
   #servicos-container {
-    width: 600px;
-    grid-template-columns: 600px;
+    width: 305px;
+    grid-template-columns: 305px;
   }
 
   #footer {

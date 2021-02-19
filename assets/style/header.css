@@ -113,6 +113,7 @@ main {
         left: 50%;
         transform: translateX(-50%);
         margin-right: 0px;
+        position: relative;
     }
     .nav > .nav-btn {
       display: inline-block;

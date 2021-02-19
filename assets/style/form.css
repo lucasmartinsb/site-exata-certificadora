@@ -236,7 +236,7 @@ fieldset{
 
 @media (max-width:1160PX) {
     fieldset {
-        width: 450px;
+        width: 305;
     }
 
     #fale-conosco-container {
@@ -245,14 +245,14 @@ fieldset{
     }
 
     .fale-conosco-contato {
-        grid-template-columns: 450px 0px;
+        grid-template-columns: 305px 0px;
         grid-template-rows: 600px 380px;
     }
 
     .field {
-        grid-template-columns: 450px 0px;
+        grid-template-columns: 305px 0px;
         grid-template-rows: 75px 75px 75px 75px 75px 185px;
-        width: 450px;
+        width: 305px;
     }
 
     .nome {
@@ -288,12 +288,18 @@ fieldset{
         grid-row: 2;
         margin-left: 50%;
         transform: translateX(-50%);
+        width: 305px;
+        grid-template-columns: 50px 255px;
     }
     
     #form input.submitc {
         position: absolute;
         left: 50%;
         transform: translateX(-120%);
+    }
+
+    .fale-conosco-footer{
+        margin-top: 0px;
     }
 
 }
