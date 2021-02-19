@@ -1,10 +1,19 @@
 # Site Exata Certificadora
+PT-BR
 * Site criado para fins educativos;
-* Referência de uma empresa real de certificação de produtos;
+* Referência à Exata Certificadora, do Rio de Janeiro, uma empresa real de certificação de produtos;
 * Feito com HTML e CSS;
 * Será aprimorado futuramente conforme meus estudos.
 
+EN
+* Website created for educational purposes;
+* Reference for Exata Certificadora, From Rio de Janeiro, a real product certification company;
+* Made with HTML and CSS;
+* It will be improved in the future according to my studies.
+
 ## Screenshots da versão desktop
+<details>
+    <summary>Visualizar</summary>
 <p align="center">
   <h3>Home<h3>
   <img src="https://github.com/lucasmartinsb/site-exata-certificadora/blob/main/Prints/Home.png" width="800" title="Home">
@@ -17,4 +26,4 @@
   <h3>Fale conosco<h3>
   <img src="https://github.com/lucasmartinsb/site-exata-certificadora/blob/main/Prints/Fale-conosco.png" width="800" title="Fale conosco">
 </p>
-
+</details>
