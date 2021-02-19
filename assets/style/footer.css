@@ -101,6 +101,10 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
+
+    .email-li {
+        width: 239px;
+    }
 }
 
 /*----------FIM FOOTER----------*/
