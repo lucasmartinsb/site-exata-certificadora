@@ -1,6 +1,6 @@
 # Site Exata Certificadora
 * Site criado para fins educativos;
-* Referência a uma empresa real de certificação de produtos;
+* Referência à Exata Certificadora, do Rio de Janeiro, uma empresa real de certificação de produtos;
 * Feito com HTML e CSS;
 * Será aprimorado futuramente conforme meus estudos.
 
