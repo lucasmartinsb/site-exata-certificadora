@@ -39,12 +39,6 @@
     grid-row: 2;
 }
 
-.fale-conosco-contato {
-    width: 100%;
-    height: 420px;
-    display: grid;
-    grid-template-columns: 700px 360px;
-}
 
 fieldset{
     width: 700px;
@@ -250,12 +244,9 @@ fieldset{
 
     #fale-conosco-container {
         height: 1200px;
-        grid-template-rows: 150px 600px;
-    }
-
-    .fale-conosco-contato {
+        grid-template-rows: 150px 650px 400px;
         grid-template-columns: 305px 0px;
-        grid-template-rows: 600px 380px;
+        justify-items: center;
     }
 
     .field {
@@ -294,17 +285,16 @@ fieldset{
     }
 
     #contact {
-        grid-row: 2;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        grid-row: 3;
+        transform: translateX(-53%);
         width: 305px;
         grid-template-columns: 50px 255px;
+        margin-top: 0px;
     }
     
     #form input.submitc {
-        position: absolute;
         left: 50%;
-        transform: translateX(-120%);
+        transform: translateX(-150%);
     }
 
     .fale-conosco-footer{
