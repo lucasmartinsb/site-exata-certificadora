@@ -5,6 +5,7 @@
     justify-content: center;
 }
 
+/*----------TEXTO DE CIMA----------*/
 .txt {
     grid-row: 1;
     position: relative;
@@ -29,7 +30,9 @@
     color: #9a9a9a;
     margin-top: -10px;
 }
+/*----------FIM TEXTO DE CIMA----------*/
 
+/*----------FORMULARIO----------*/
 .fale-conosco-contato {
     width: 100%;
     height: 420px;
@@ -163,11 +166,11 @@ fieldset{
     background-color: #8c9399;
     transition: ease 0.3s;
 }
+/*----------FIM FORMULARIO----------*/
 
 
 
-
-
+/*----------QUADRO CONTATO----------*/
 #contact {
     background-color: #dddd;
     width: 360px;
@@ -228,6 +231,8 @@ fieldset{
 .fale-conosco-footer {
     margin-top: 127px;
 }
+/*----------FIM QUADRO CONTATO----------*/
+
 
 @media (max-width:1160PX) {
     fieldset {

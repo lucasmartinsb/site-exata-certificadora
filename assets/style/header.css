@@ -17,11 +17,12 @@ main {
   }
 
 
-/*---------------------------------------HEADER---------------------------------------*/
+/*----------HEADER----------*/
   .logo {
-        position: absolute;
-        left: 300px;
-        transition: opacity 0.5s;
+    position: absolute;
+    right: 50%;
+    margin-right: 30%;
+    transition: opacity 0.5s;
   }
   .logo img {
     width: auto;
@@ -101,12 +102,13 @@ main {
     width: 125px;
     float: right;
     position: absolute;
-    right: 300px;
+    left: 50%;
+    margin-left: 30%;
     top: 12px;
     z-index: 9;
   }
 
-  @media (max-width:1430px) {
+  @media (max-width:1100px) {
     .logo {
         left: 50%;
         transform: translateX(-50%);
@@ -159,4 +161,4 @@ main {
         opacity: 0%;
     }
   }
-/*---------------------------------------FIM HEADER---------------------------------------*/
+/*----------FIM HEADER----------*/
