@@ -1,8 +1,15 @@
 # Site Exata Certificadora
+PT-BR
 * Site criado para fins educativos;
 * Referência à Exata Certificadora, do Rio de Janeiro, uma empresa real de certificação de produtos;
 * Feito com HTML e CSS;
 * Será aprimorado futuramente conforme meus estudos.
+
+EN
+* Website created for educational purposes;
+* Reference for Exata Certificadora, From Rio de Janeiro, a real product certification company;
+* Made with HTML and CSS;
+* It will be improved in the future according to my studies.
 
 ## Screenshots da versão desktop
 <details>
