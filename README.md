@@ -5,6 +5,8 @@
 * Será aprimorado futuramente conforme meus estudos.
 
 ## Screenshots da versão desktop
+<details>
+    <summary>Click to expand!</summary>
 <p align="center">
   <h3>Home<h3>
   <img src="https://github.com/lucasmartinsb/site-exata-certificadora/blob/main/Prints/Home.png" width="800" title="Home">
@@ -17,4 +19,4 @@
   <h3>Fale conosco<h3>
   <img src="https://github.com/lucasmartinsb/site-exata-certificadora/blob/main/Prints/Fale-conosco.png" width="800" title="Fale conosco">
 </p>
-
+</details>
