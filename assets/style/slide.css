@@ -45,9 +45,10 @@ button.slick-next{
 
 .slick-dots {
     margin:0 auto;
-    width: 50%;
+    width: 70px;
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     bottom: 4%;
 }
 
